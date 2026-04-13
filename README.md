@@ -37,9 +37,4 @@ Error Metrics: Evaluated financial predictions using:
     R^2 Score: Achieved a baseline coefficient of determination of ~0.254.
 
 3. Model Persistence
-Export/Import: Successfully saved the trained classifier using `joblib.dump()` and reloaded it via `joblib.load()` to perform predictions on new data without re-training.
-
-**ملاحظات حول الملف:**
-* تم تضمين أرقام النتائج الحقيقية التي ظهرت في النوت بوك (مثل دقة 87% وسكور الـ Ridge) لزيادة المصداقية.
-* تم تقسيم العمل لجزئين (التصنيف والانحدار) كما هو مرتب في ملفك تماماً.
-* تم إضافة قسم خاص بالـ Pipelines و الـ Model Persistence لأنها مهارات متقدمة تظهر احترافيتك في الكود.
+Export/Import: Successfully saved the trained classifier using `joblib.dump()` and reloaded it via `joblib.load()` to perform predictions on new data without re-training
